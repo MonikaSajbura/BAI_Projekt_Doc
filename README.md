@@ -85,27 +85,26 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 ### Linki do składowych projektu
 [Link do projektu](https://monikasajbura.github.io/BAI_projekt/)
 
-#### API
-[Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
+##### API
+* [Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
+* [Kursy walut](http://api.nbp.pl/)
 
-[Kursy walut](http://api.nbp.pl/)
-
-#### Języki
+##### Języki
 * Vue.js
 * Typescript (script lang="ts")
 
-#### Style
+##### Style
 [Vue bootstrap](https://bootstrap-vue.org/docs)
 
-#### Zewnętrzne komponenty
+##### Zewnętrzne komponenty
 [Chart.js](https://www.chartjs.org/)
 
-#### Dodatki
+##### Dodatki
 * Routing stworzony za pomocą *vue-router*
 * Kontrolki *formGroup*
 * Dekoratory klas *vue-property-decorator*
 
-#### Wersje
+##### Wersje
 ```javascript
  "@types/chart.js": "^2.9.19"
  "bootstrap": "^4.4.1"
