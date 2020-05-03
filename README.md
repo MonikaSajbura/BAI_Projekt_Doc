@@ -6,12 +6,12 @@ Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
 ***
 
 ### Cele projektu
-Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sprawdzenie czy podczas gry na giełdzie można się wzbogacić czy więcej stracić.
+Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sprawdzenie czy podczas gry na giełdzie można się bardziej wzbogacić czy więcej stracić.
 
 ***
 
 ### Funkcjonalności
-Na sersie można znaleźć następujące postrony:
+Na serwisie można znaleźć następujące postrony:
 * *Strona główna*
 * *Kursy walut*
 * *Zarządzanie portfelem*
@@ -20,7 +20,7 @@ Na każdym widoku pojawia się menu u góry strony, na którym znajdują się po
 
 **1. Wyświetlanie bieżących danych o kryptowalutach.**
 
-Na *Stronie Głównej* serwisu jest umieszczona lista czterech głównych kryptowalut ze szczegółami ściągniętymi z API (nazwa, BID, ASK) oraz posiadaną ilość kryptowaluty (liczone w sztukach). Oprócz tego widodczne są funkcje (*kup*, *sprzedaj*, *szczegóły*, *usuń*).
+Na *Stronie Głównej* serwisu jest umieszczona lista czterech głównych kryptowalut ze szczegółami ściągniętymi z API (nazwa, BID, ASK) oraz posiadaną ilośią kryptowaluty (liczone w sztukach). Oprócz tego widodoczne są funkcje (*kup*, *sprzedaj*, *szczegóły*, *usuń*).
 ![Strona Główna](screens/StronaGłówna1.png)
 
 Szczegóły dotyczące danej kryptowaluty można zobaczyć po kliknięciu przycisku *Szczegóły*. Są tam wyświetlane dane z ostatnich kilku godzin w formie wykresów (kupno i sprzedaż)
@@ -28,7 +28,7 @@ Szczegóły dotyczące danej kryptowaluty można zobaczyć po kliknięciu przyci
 
 **2. Dodawanie dedykowanych kryptowalut do listy śledzonych pozycji.**
 
-Na *Stronie Głównej* jest dostępna funkcja do dodania nowych kryptowalut do bieżącej wyświetlanej listy. Po wyborze kryptowaluty i kliknięciu przycisku *Dodaj* nowy wiersz pojawia się w tabeli kryptowalut.
+Na *Stronie Głównej* jest dostępna funkcja do dodania nowych kryptowalut do bieżąco wyświetlanej listy. Po wyborze kryptowaluty i kliknięciu przycisku *Dodaj* nowy wiersz pojawia się w tabeli kryptowalut.
 ![Dodaj Kryptowaluty](screens/DodaneKryptowaluty.png)
 
 **3. Zakupy i sprzedaż kryptowalut wykorzystując wirtualny portfel.**
@@ -46,7 +46,7 @@ Na postronie *Strona Główna* znajdują się kryptowaluty, które można kupić
 * Podobny sposób działania jak przy kupnie zastosowany jest przy sprzedaży. Po kliknięciu przycisku *Sprzedaj* przy danej kryptowalucie pokazuje się okno, w którym należy podać ilość waluty do sprzedaży.
 ![Sprzedaj Kryptowalutę](screens/SprzedajKrypto1.png)
 
-* Po kliknięciu przycisku *Sprzedaj* może się okazać, że nie ma się wystarczającej ilości krytpowalut na sprzedaż danej kryptowaluty - wtedy pojawia się komunikat wraz z wykazem brakującej ilości.
+* Po kliknięciu przycisku *Sprzedaj* może się okazać, że nie ma się wystarczającej ilości posiadanej kryptowaluty na jej sprzedaż - wtedy pojawia się komunikat wraz z wykazem brakującej ilości.
 ![Widok sprzedanej kryptowaluty](screens/komunikatSprzedaz.png)
 
 * Po poprawnie wprowadzonej i sprzedanej walucie, w kolumnie *Posiadana kwota* znika adekwatnie do wprowadzonej wartości, ilość kryptowaluty, a saldo w prawym górnym rogu zmnienia wartość.
@@ -54,25 +54,25 @@ Na postronie *Strona Główna* znajdują się kryptowaluty, które można kupić
 
 **4. Wyświetlanie bieżących kursów walut.**
 
-Na podstronie *Kursy Walut* jest umieszczona lista najpopularniejszych walut sciągnietych z API (waluta, kod, kupno, sprzedaż)
+Na podstronie *Kursy Walut* jest umieszczona lista najpopularniejszych walut na świecie ściągniętych z API (waluta, kod, kupno, sprzedaż)
 ![Strona Główna](screens/KursyWalut.png)
 
 **5. Wyświetlanie danych na witrualnym portfelu.**
 
 Na podstronie *Zarządzanie portfelem* znajdują się następujące opcje wyświetlania danych z całego serwisu:
-* Saldo - pokazuje akutalne saldo portfela
+* Saldo - pokazuje aktualne saldo portfela
 * Zysk - pokazuje zysk uzyskany ze wszystkich transakcji
 * Zainwestowane pieniądze - pokazuje dotychczas zainwestowane pieniądze
-* Dochód lub utrata - pokazuje kwotę uzyskaną lub utraconą po dodaniu zainwestowanych pieniędzy i zysku.
+* Dochód lub utrata - pokazuje kwotę uzyskaną lub utraconą po zsumowaniu zainwestowanych pieniędzy i zysku.
 * Posiadane waluty (waluta, ilość) - pokazuje stan pozyskanych walut przy kupnie lub sprzedaży
 * Posiadane kryptowaluty (kryptowaluta, ilość) - pokazuje zakupione kryptowaluty.
-* Historia zakupionych kryptowalut (data, ilość, bilans, status, kryptowaluta) - pokazuje historie wszystkich transakcji na krytpowalutach. Data ukazywana jest w skróconym formacie (DD.MM.YYYY HH:MM:SS). Są dwa statusy kupione i sprzedane.
+* Historia zakupionych kryptowalut (data, ilość, bilans, status, kryptowaluta) - pokazuje historie wszystkich transakcji na krytpowalutach. Data ukazywana jest w skróconym formacie (DD.MM.YYYY HH:MM:SS) pozysiwana w czasie rzeczywistym po transakacjach. Na historii widoczne są dwa statusy: kupione i sprzedane.
 
 ![Zarządzanie portfelem](screens/ZarządzaniePortfelem.png)
 
 **6. Wirtualny portfel z możliwością przewalutowania na inną walutę po aktualnym kursie nbp.**
 
-Na podstronie *Zarządzanie Portfelem* jest dostępna opcja do przewalutowania obecnej waluty. Po kliknięciu przycisku *Kup/Sprzedaj* pojawia się okno z 3 walutami pobranymi z API (waluta, kod, cena kupna, cena sprzedaży). Po wybraniu waluty należy wprowadzić ilość i wybrać opcję kup/sprzedaj, a następnie kliknąć przysisk wymień, aby waluta obecna waluta (w złotówkach) została wymieniona na inną walutę.
+Na podstronie *Zarządzanie Portfelem* jest dostępna opcja do przewalutowania obecnej waluty. Po kliknięciu przycisku *Kup/Sprzedaj* pojawia się okno z 3 walutami pobranymi z API (waluta, kod, cena kupna, cena sprzedaży). Po wybraniu waluty należy wprowadzić ilość i wybrać opcję kup/sprzedaj, a następnie kliknąć przysisk wymień, aby obecna waluta (w złotówkach) została wymieniona na inną walutę.
 ![Wymiana Walut](screens/WymianaWalut.png)
 
 **7. Zasilenie portfela.**
@@ -82,20 +82,22 @@ Na podstronie *Zarządzanie portfelem* jest dostępna opcja *Zasil portfel*, po 
 
 **8. Przywrócenie stanu początkowego portfela**
 
-Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywrócenia stanu początkowego. Po jej kilknięciu wszystkie wprowadzone wartości na każdej podstronie oraz dodatkowe pozycje na liście kryptowalut kasują się, a gra rozpoczyna się od początku. 
+Na podstronie *Zarządzanie portfelem* znajduje się opcja *Restartuj* do przywrócenia stanu początkowego. Po jej kilknięciu wszystkie wprowadzone wartości na każdej podstronie oraz dodatkowe pozycje na liście kryptowalut kasują się, a gra rozpoczyna się od początku. 
 ![Zarządzanie Portfelem](screens/Restartuj.png)
 
 ***
 ### Wersja mobilna
 
-Dzięki Vue Boostrap serwis jest także dostępny i skalowany w wersji mobilnej. Wszystkie funkcjonalności działają i są dostosowane do widoku mobilnego. Menu zawinięte zostaje w formie 3 poziomych kresek widoczne w prawym górnym rogu.
+Dzięki Vue Boostrap serwis jest także dostępny i skalowalny w wersji mobilnej. Wszystkie funkcjonalności działają i są dostosowane do widoku mobilnego. Menu zawinięte zostaje w formie 3 poziomych kresek widoczne w prawym górnym rogu.
 
 ![Portfel mobilka](screens/portfelM.png)
 
 *** 
 
 ### Linki do składowych projektu
-[Link do projektu](https://monikasajbura.github.io/BAI_projekt/)
+[Link do projektu zamieszczonego na GitHub Pages](https://monikasajbura.github.io/BAI_projekt/)
+[Link do repozytorium projektu](https://github.com/MonikaSajbura/BAI_projekt)
+[Link do zarządzania projektu na GitHub](https://github.com/MonikaSajbura/BAI_projekt/projects/1)
 
 #### API
 * [Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
@@ -103,7 +105,7 @@ Dzięki Vue Boostrap serwis jest także dostępny i skalowany w wersji mobilnej.
 
 #### Języki
 * Vue.js
-* Typescript (script lang="ts")
+* Typescript
 
 #### Style
 [Vue bootstrap](https://bootstrap-vue.org/docs)
