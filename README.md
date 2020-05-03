@@ -15,7 +15,7 @@ Na sersie można znaleźć następujące postrony:
 
 Na każdym widoku pojawia się menu u góry strony, na którym znajdują się podstrony oraz biężące saldo (początkowa wartość to zawsze 50 000 zł).
 
-1. Wyświetlanie bieżących danych o kryptowalutach.
+**1. Wyświetlanie bieżących danych o kryptowalutach.**
 
 Na *Stronie Głównej* serwisu jest umieszczona lista czterech głównych kryptowalut ze szczegółami ściągniętymi z API (nazwa, BID, ASK) oraz posiadaną ilość kryptowaluty (liczone w sztukach). Oprócz tego widodczne są funkcje (*kup*, *sprzedaj*, *szczegóły*, *usuń*).
 ![Strona Główna](screens/StronaGłówna1.png)
@@ -23,12 +23,12 @@ Na *Stronie Głównej* serwisu jest umieszczona lista czterech głównych krypto
 Szczegóły dotyczące danej kryptowaluty można zobaczyć po kliknięciu przycisku *Szczegóły*. Są tam wyświetlane dane z ostatnich kilku godzin w formie wykresów (kupno i sprzedaż)
 ![Szczegóły Kryptowaluty](screens/SzczegolyKrypto.png)
 
-2. Dodawanie dedykowanych kryptowalut do listy śledzonych pozycji.
+**2. Dodawanie dedykowanych kryptowalut do listy śledzonych pozycji.**
 
 Na *Stronie Głównej* jest dostępna funkcja do dodania nowych kryptowalut do bieżącej wyświetlanej listy. Po wyborze kryptowaluty i kliknięciu przycisku *Dodaj* nowy wiersz pojawia się w tabeli kryptowalut.
 ![Dodaj Kryptowaluty](screens/DodaneKryptowaluty.png)
 
-3. Zakupy i sprzedaż kryptowalut wykorzystując wirtualny portfel.
+**3. Zakupy i sprzedaż kryptowalut wykorzystując wirtualny portfel.**
 
 Na postronie *Strona Główna* znajdują się kryptowaluty, które można kupić albo sprzedać.
 * Po kliknięciu w przycisk *Kup* przy danej kryptowalucie pokazuje się okno, w którym należy podać ilość waluty do kupna.
@@ -49,12 +49,12 @@ Na postronie *Strona Główna* znajdują się kryptowaluty, które można kupić
 * Po poprawnie wprowadzonej i sprzedanej walucie, w kolumnie *Posiadana kwota* znika adekwatnie do wprowadzonej wartości, ilość kryptowaluty, a saldo w prawym górnym rogu zmnienia wartość.
 ![Widok sprzedanej kryptowaluty](screens/SprzedajKrypto2.png)
 
-4. Wyświetlanie bieżących kursów walut.
+**4. Wyświetlanie bieżących kursów walut.**
 
 Na podstronie *Kursy Walut* jest umieszczona lista najpopularniejszych walut sciągnietych z API (waluta, kod, kupno, sprzedaż)
 ![Strona Główna](screens/KursyWalut.png)
 
-5. Wyświetlanie danych na witrualnym portfelu.
+**5. Wyświetlanie danych na witrualnym portfelu.**
 
 Na podstronie *Zarządzanie portfelem* znajdują się następujące opcje wyświetlania danych z całego serwisu:
 * Saldo - pokazuje akutalne saldo portfela
@@ -67,20 +67,20 @@ Na podstronie *Zarządzanie portfelem* znajdują się następujące opcje wyświ
 
 ![Zarządzanie portfelem](screens/ZarządzaniePortfelem.png)
 
-5. Wirtualny portfel z możliwością przewalutowania na inną walutę po aktualnym kursie nbp.
+**6. Wirtualny portfel z możliwością przewalutowania na inną walutę po aktualnym kursie nbp.**
 
 Na podstronie *Zarządzanie Portfelem* jest dostępna opcja do przewalutowania obecnej waluty. Po kliknięciu przycisku *Kup/Sprzedaj* pojawia się okno z 3 walutami pobranymi z API (waluta, kod, cena kupna, cena sprzedaży). Po wybraniu waluty należy wprowadzić ilość i wybrać opcję kup/sprzedaj, a następnie kliknąć przysisk wymień, aby waluta obecna waluta (w złotówkach) została wymieniona na inną walutę.
 ![Wymiana Walut](screens/WymianaWalut.png)
 
-6. Zasilenie portfela.
+**7. Zasilenie portfela.**
 
 Na podstronie *Zarządzanie portfelem* jest dostępna opcja *Zasil portfel*, po jej kliknięciu pojawia się okno do wprowadzenia kwoty do zasilenia portfela. Po zatwierdzeniu przyskiem *Zasil* bieżące saldo powiększa się o wprowadzoną kwotę.
 ![Zasil Portfel](screens/ZasilPortfel.png)
 
-7. Przywrócenie stanu początkowego portfela
+**8. Przywrócenie stanu początkowego portfela**
 
 Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywrócenia stanu początkowego. Po jej kilknięciu wszystkie wprowadzone wartości na każdej podstronie oraz dodatkowe pozycje na liście kryptowalut kasują się, a gra rozpoczyna się od początku. 
-![Zarządzanie Portfelem](screens/ZarządzaniePortfelem.png)
+![Zarządzanie Portfelem](screens/Restartuj.png)
 
 ### Linki do składowych projektu
 [Projekt](https://monikasajbura.github.io/BAI_projekt/)
@@ -90,4 +90,34 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 
 [Kursy walut](http://api.nbp.pl/)
 
-####
+#### Języki
+* Vue.js
+* Typescript (script lang="ts")
+
+#### Style
+[Vue bootstrap](https://bootstrap-vue.org/docs)
+
+#### Zewnętrzne komponenty
+[Chart.js](https://www.chartjs.org/)
+
+#### Dodatki
+Routing stworzony za pomocą *vue-router*
+Kontrolki *formGroup*
+Dekoratory klas *vue-property-decorator*
+
+#### Wersje
+ "@types/chart.js": "^2.9.19"
+ "bootstrap": "^4.4.1"
+ "bootstrap-vue": "^2.11.0"
+ "chart": "^0.1.2"
+ "chart.js": "^2.9.3"
+ "core-js": "^3.6.4"
+ "vue": "^2.6.11"
+ "vue-chartjs": "^3.5.0"
+ "vue-class-component": "^7.2.3"
+ "vue-google-charts": "^0.3.2"
+ "vue-mc": "^0.6.0"
+ "vue-property-decorator": "^8.4.1"
+ "vue-router": "^3.1.6"
+ "vuex": "^3.1.3"
+
