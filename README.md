@@ -1,12 +1,12 @@
 ## Dokumentacja projektu BAI
 
-
+***
 ### Temat projektu
 Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
-
+***
 ### Cele projektu
 Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sprawdzenie czy podczas gry na giełdzie można się wzbogacić czy więcej stracić.
-
+***
 ### Funkcjonalności
 Na sersie można znaleźć następujące postrony:
 * *Strona główna*
@@ -82,29 +82,30 @@ Na podstronie *Zarządzanie portfelem* jest dostępna opcja *Zasil portfel*, po 
 Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywrócenia stanu początkowego. Po jej kilknięciu wszystkie wprowadzone wartości na każdej podstronie oraz dodatkowe pozycje na liście kryptowalut kasują się, a gra rozpoczyna się od początku. 
 ![Zarządzanie Portfelem](screens/Restartuj.png)
 
+***
 ### Linki do składowych projektu
 [Link do projektu](https://monikasajbura.github.io/BAI_projekt/)
 
-##### API
+#### API
 * [Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
 * [Kursy walut](http://api.nbp.pl/)
 
-##### Języki
+#### Języki
 * Vue.js
 * Typescript (script lang="ts")
 
-##### Style
+#### Style
 [Vue bootstrap](https://bootstrap-vue.org/docs)
 
-##### Zewnętrzne komponenty
+#### Zewnętrzne komponenty
 [Chart.js](https://www.chartjs.org/)
 
-##### Dodatki
+#### Dodatki
 * Routing stworzony za pomocą *vue-router*
 * Kontrolki *formGroup*
 * Dekoratory klas *vue-property-decorator*
 
-##### Wersje
+#### Wersje
 ```javascript
  "@types/chart.js": "^2.9.19"
  "bootstrap": "^4.4.1"
