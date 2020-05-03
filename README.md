@@ -1,5 +1,6 @@
 ## Dokumentacja projektu BAI
 
+
 ### Temat projektu
 Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
 
@@ -16,3 +17,6 @@ Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sp
 7. Przywrócenie stanu początkowego portfela
 
 ### Linki do składowych projektu
+[Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
+
+[Kursy walut](http://api.nbp.pl/)
