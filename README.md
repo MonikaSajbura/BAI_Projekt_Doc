@@ -12,7 +12,7 @@ Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sp
 
 ![Lista kryptowalut][logo]
 
-[logo]: /screens/StronaG%C5%82%C3%B3wna1.png "Kryptowaluty lista"
+[logo]: /screens/StronaGłówna1.png "Kryptowaluty lista"
 2. Wyświetlanie bieżących kursów walut.
 3. Dodawanie dedykowanych kryptowalut do listy śledzonych pozycji.
 4. Wirtualny portfel z możliwością przewalutowania na inną walutę po aktualnym kursie nbp.
