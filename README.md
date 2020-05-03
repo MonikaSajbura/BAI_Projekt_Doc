@@ -1,39 +1,18 @@
 ## Dokumentacja projektu BAI
 
-You can use the [editor on GitHub](https://github.com/MonikaSajbura/BAI_Projekt_Doc/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Temat projektu
+Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Cele projektu
+Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sprawdzenie czy podczas gry na giełdzie można się wzbogacić czy więcej stracić.
 
-Temat projektu: Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
+### Funkcjonalności
+1. Wyświetlanie bieżących danych o kryptowalutach.
+2. Wyświetlanie bieżących kursów walut.
+3. Dodawanie dedykowanych kryptowalut do listy śledzonych pozycji.
+4. Wirtualny portfel z możliwością przewalutowania na inną walutę po aktualnym kursie nbp.
+5. Zakupy i sprzedaż kryptowalut wykorzstując wirtualny portfel.
+6. Zasilenia portfela.
+7. Przywrócenie stanu początkowego portfela
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MonikaSajbura/BAI_Projekt_Doc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Linki do składowych projektu
