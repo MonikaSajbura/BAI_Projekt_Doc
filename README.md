@@ -88,9 +88,7 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 ***
 ### Wersja mobilna
 
-Dzięki Vue Boostrap serwis jest także dostępny i skalowany w wersji mobilnej. Wszystkie funkcjonalności działają tak samo. Menu zawinięte zostaje z boku w formie 3 poziomych kresek.
-
-* Zarządzanie portfelem 
+Dzięki Vue Boostrap serwis jest także dostępny i skalowany w wersji mobilnej. Wszystkie funkcjonalności działają i są dostosowane do widoku mobilnego. Menu zawinięte zostaje w formie 3 poziomych kresek widoczne w prawym górnym rogu.
 
 ![Portfel mobilka](screens/portfelM.png)
 
