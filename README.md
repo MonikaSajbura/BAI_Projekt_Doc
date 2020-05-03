@@ -83,7 +83,7 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 ![Zarządzanie Portfelem](screens/Restartuj.png)
 
 ### Linki do składowych projektu
-[Projekt](https://monikasajbura.github.io/BAI_projekt/)
+[Link do projektu](https://monikasajbura.github.io/BAI_projekt/)
 
 #### API
 [Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
@@ -101,11 +101,12 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 [Chart.js](https://www.chartjs.org/)
 
 #### Dodatki
-Routing stworzony za pomocą *vue-router*
-Kontrolki *formGroup*
-Dekoratory klas *vue-property-decorator*
+* Routing stworzony za pomocą *vue-router*
+* Kontrolki *formGroup*
+* Dekoratory klas *vue-property-decorator*
 
 #### Wersje
+```javascript
  "@types/chart.js": "^2.9.19"
  "bootstrap": "^4.4.1"
  "bootstrap-vue": "^2.11.0"
@@ -120,4 +121,4 @@ Dekoratory klas *vue-property-decorator*
  "vue-property-decorator": "^8.4.1"
  "vue-router": "^3.1.6"
  "vuex": "^3.1.3"
-
+```
