@@ -9,8 +9,7 @@ Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sp
 
 ### Funkcjonalności
 1. Wyświetlanie bieżących danych o kryptowalutach.
-![Lista kryptowalut][logo]
-[logo]: https://github.com/MonikaSajbura/BAI_Projekt_Doc/blob/master/screens/StronaG%C5%82%C3%B3wna1.png "Kryptowaluty lista"
+![Krypto](https://github.com/MonikaSajbura/BAI_Projekt_Doc/blob/master/screens/StronaG%C5%82%C3%B3wna1.pngg)
 ![Lista kryptowalut][logo]
 [logo]: /screens/ZasilProtfel.png "Zasil portfel"
 2. Wyświetlanie bieżących kursów walut.
