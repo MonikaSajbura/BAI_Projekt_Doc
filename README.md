@@ -90,9 +90,9 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 
 Dzięki Vue Boostrap serwis jest także dostępny i skalowany w wersji mobilnej. Menu zawinięte zostaje z boku w formie 3 poziomych kresek.
 
-![Waluty mobilka](screens/kryptoM.png)
-![Kryptowaluty mobilka](screens/WalutyM.png)
-![Portfel mobilka](screens/portfelM.png)
+Strona Główna ![Waluty mobilka](screens/kryptoM.png)
+Kursy walut ![Kryptowaluty mobilka](screens/walutyM.png)
+Zarządzanie portfelem ![Portfel mobilka](screens/portfelM.png)
 
 *** 
 
