@@ -9,10 +9,10 @@ Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sp
 
 ### Funkcjonalności
 1. Wyświetlanie bieżących danych o kryptowalutach.
-
 ![Lista kryptowalut][logo]
-
 [logo]: /screens/StronaGłówna1.png "Kryptowaluty lista"
+![Lista kryptowalut][logo]
+[logo]: /screens/ZasilProtfel.png "Zasil portfel"
 2. Wyświetlanie bieżących kursów walut.
 3. Dodawanie dedykowanych kryptowalut do listy śledzonych pozycji.
 4. Wirtualny portfel z możliwością przewalutowania na inną walutę po aktualnym kursie nbp.
