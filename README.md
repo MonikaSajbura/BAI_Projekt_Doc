@@ -17,8 +17,9 @@ Na każdym widoku pojawia się menu u góry strony, na którym znajdują się po
 
 1. Wyświetlanie bieżących danych o kryptowalutach.
 
-Na Stronie Głównej serwisu jest umieszczona lista czterech głównych kryptowalut ze szczegółami ściągniętymi z API (nazwa, BID, ASK) oraz posiadaną ilość kryptowaluty (liczone w sztukach). Oprócz tego widodczne są funkcje (kup, sprzedaj, szczegóły, usuń).
+...Na Stronie Głównej serwisu jest umieszczona lista czterech głównych kryptowalut ze szczegółami ściągniętymi z API (nazwa, BID, ASK) oraz posiadaną ilość kryptowaluty (liczone w sztukach). Oprócz tego widodczne są funkcje (kup, sprzedaj, szczegóły, usuń).
 ![Strona Główna](screens/StronaGłówna1.png)
+
 ...Szczegóły dotyczące danej kryptowaluty można zobaczyć po kliknięciu przycisku *Szczegóły*. Są tam wyświetlane dane z ostatnich kilku godzin w formie wykresów (kupno i sprzedaż)..
 ![Szczegóły Kryptowaluty](screens/SzczegolyKrypto.png)
 2. Wyświetlanie bieżących kursów walut.
