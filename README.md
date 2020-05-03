@@ -1,7 +1,5 @@
 ## Dokumentacja projektu BAI
 
-***
-
 ### Temat projektu
 Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
 
@@ -88,6 +86,15 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 ![Zarządzanie Portfelem](screens/Restartuj.png)
 
 ***
+### Wersja mobilna
+
+Dzięki Vue Boostrap serwis jest także dostępny i skalowany w wersji mobilnej. Menu zawinięte zostaje z boku w formie 3 poziomych kresek.
+
+![Waluty mobilka](screens/kryptoM.png)
+![Kryptowaluty mobilka](screens/WalutyM.png)
+![Portfel mobilka](screens/portfelM.png)
+
+*** 
 
 ### Linki do składowych projektu
 [Link do projektu](https://monikasajbura.github.io/BAI_projekt/)
