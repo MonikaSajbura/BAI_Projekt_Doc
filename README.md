@@ -1,14 +1,17 @@
 ## Dokumentacja projektu BAI
 
 ***
+
 ### Temat projektu
 Stworzenie serwisu do symulacji gry na giełdzie kryptowalut.
 
 ***
+
 ### Cele projektu
 Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sprawdzenie czy podczas gry na giełdzie można się wzbogacić czy więcej stracić.
 
 ***
+
 ### Funkcjonalności
 Na sersie można znaleźć następujące postrony:
 * *Strona główna*
@@ -85,6 +88,7 @@ Na podstonie *Zarządzanie portfelem* znajduje się opcja *Restartuj*  do przywr
 ![Zarządzanie Portfelem](screens/Restartuj.png)
 
 ***
+
 ### Linki do składowych projektu
 [Link do projektu](https://monikasajbura.github.io/BAI_projekt/)
 
