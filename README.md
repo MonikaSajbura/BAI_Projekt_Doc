@@ -25,7 +25,7 @@ Głównym celem projektu jest zasymulowanie gry na giełdzie kryptowalut oraz sp
 6. Zasilenia portfela.
 ![Zasil Portfel](screens/ZasilPortfel.png)
 7. Przywrócenie stanu początkowego portfela
-![Zarządzanie Portfelem](screens/ZarzadzaniePortfelem.png)
+![Zarządzanie Portfelem1](screens/ZarzadzaniePortfelem.png)
 
 ### Linki do składowych projektu
 [Dane o cenach kryptowalut](https://bitbay.net/pl/api-publiczne)
